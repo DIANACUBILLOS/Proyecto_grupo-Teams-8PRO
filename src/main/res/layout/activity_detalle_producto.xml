@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress AndroidDomInspection -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetalleProductoActivity">
+
+    <TextView
+
+        android:id="@+id/tev_detalle_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nombre"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imv_detalle_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ai">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tev_detalle_categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Categoria"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tev_detalle_precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Precio"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tev_detalle_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Disponible"
+        android:textSize="20dp">
+
+    </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+com/example/team8/ui/slideshow/SlideshowViewModel.java
+ com.example.team8.ui.slideshow.SlideshowViewModel
+com/example/team8/ui/gallery/GalleryViewModel.java
+ com.example.team8.ui.gallery.GalleryViewModel
+com/example/team8/BuildConfig.java
+ com.example.team8.BuildConfig
+com/example/team8/ui/home/HomeViewModel.java
+ com.example.team8.ui.home.HomeViewModel
+com/example/team8/ui/slideshow/SlideshowFragment.java
+ com.example.team8.ui.slideshow.SlideshowFragment
+ com.example.team8.ui.slideshow.SlideshowFragment$1
+com/example/team8/ui/home/HomeFragment.java
+ com.example.team8.ui.home.HomeFragment
+ com.example.team8.ui.home.HomeFragment$1
+com/example/team8/RegistroActivity.java
+ com.example.team8.RegistroActivity
+ com.example.team8.RegistroActivity$1
+ com.example.team8.RegistroActivity$2
+ com.example.team8.RegistroActivity$3
+com/example/team8/databinding/ActivityLoginBinding.java
+ com.example.team8.databinding.ActivityLoginBinding
+com/example/team8/databinding/FragmentSlideshowBinding.java
+ com.example.team8.databinding.FragmentSlideshowBinding
+com/example/team8/databinding/FragmentHomeBinding.java
+ com.example.team8.databinding.FragmentHomeBinding
+com/example/team8/databinding/AppBarMenuBinding.java
+ com.example.team8.databinding.AppBarMenuBinding
+com/example/team8/MenuActivity.java
+ com.example.team8.MenuActivity
+ com.example.team8.MenuActivity$1
+com/example/team8/MainActivity.java
+ com.example.team8.MainActivity
+ com.example.team8.MainActivity$1
+com/example/team8/databinding/FragmentGalleryBinding.java
+ com.example.team8.databinding.FragmentGalleryBinding
+com/example/team8/ui/gallery/GalleryFragment.java
+ com.example.team8.ui.gallery.GalleryFragment
+ com.example.team8.ui.gallery.GalleryFragment$1
+com/example/team8/databinding/ContentMenuBinding.java
+ com.example.team8.databinding.ContentMenuBinding
+com/example/team8/databinding/NavHeaderMenuBinding.java
+ com.example.team8.databinding.NavHeaderMenuBinding
+com/example/team8/LoginActivity.java
+ com.example.team8.LoginActivity
+com/example/team8/databinding/ActivityMainBinding.java
+ com.example.team8.databinding.ActivityMainBinding
+com/example/team8/databinding/ActivityRegistroBinding.java
+ com.example.team8.databinding.ActivityRegistroBinding
+com/example/team8/databinding/ActivityMenuBinding.java
+ com.example.team8.databinding.ActivityMenuBinding

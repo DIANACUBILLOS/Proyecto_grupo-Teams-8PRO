@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <EditText
+        android:id="@+id/edt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre">
+
+    </EditText>
+    <EditText
+        android:id="@+id/edt_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido">
+
+    </EditText>
+    <EditText
+        android:id="@+id/edt_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:inputType="textWebEmailAddress">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:inputType="textPassword">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+
+            android:id="@+id/chb_terminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </CheckBox>
+        <TextView
+            android:id="@+id/tev_terminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terminos y condiciones">
+
+        </TextView>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btn_registro_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="REGISTRARSE">
+
+    </Button>
+
+
+</LinearLayout>

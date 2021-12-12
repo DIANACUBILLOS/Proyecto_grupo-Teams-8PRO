@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ai"
+        android:layout_weight="50">
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_usuario"
+
+        style="@style/MyTextView"></TextView>
+
+    <EditText
+        android:id="@+id/edt_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="correoelectronico"
+        android:layout_weight="10"
+        style="@style/MyEditText">
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_contraseña"
+        style="@style/MyEditText"></TextView>
+
+    <EditText
+        android:id="@+id/edt_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="xxxxxx"
+        android:inputType="textPassword"
+        android:layout_weight="10"
+        style="@style/MyEditText">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/txt_login"
+        android:layout_weight="10"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_registro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/txt_registro"
+        android:layout_weight="10">
+
+    </Button>
+
+
+</LinearLayout>
